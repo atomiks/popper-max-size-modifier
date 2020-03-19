@@ -2,6 +2,16 @@
 
 A [Popper.js](https://popper.js.org) modifier to change the size of your popper to fit it within the available viewport space.
 
+## Installation
+
+```bash
+# With npm
+npm i popper-max-size-modifier
+
+# With Yarn
+yarn add popper-max-size-modifier
+```
+
 ## Usage
 
 ```js
