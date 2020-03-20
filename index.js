@@ -5,7 +5,7 @@ export default {
   enabled: true,
   phase: 'main',
   requiresIfExists: ['offset', 'preventOverflow', 'flip'],
-  fn({state, instance, name}) {
+  fn({state, name}) {
     const overflow = detectOverflow(state);
     const {x, y} = state.modifiersData.preventOverflow || {x: 0, y: 0};
     const {width, height} = state.rects.popper;
