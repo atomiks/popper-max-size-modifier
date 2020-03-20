@@ -12,6 +12,10 @@ npm i popper-max-size-modifier
 yarn add popper-max-size-modifier
 ```
 
+## Demo
+
+https://codesandbox.io/s/great-tesla-3roz7
+
 ## Usage
 
 ```js
